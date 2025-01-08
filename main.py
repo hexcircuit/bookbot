@@ -43,7 +43,7 @@ def char_count(text):
     return counts
 
 
-# a function that formats and sorts the character counts
+# a function that sorts and formats the character counts
 def report(dict):
     def sort_on(item):
         return item["count"]
